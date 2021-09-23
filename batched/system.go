@@ -10,9 +10,9 @@ import (
 
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"
-	provider "github.com/ipfs/go-ipfs-provider"
-	"github.com/ipfs/go-ipfs-provider/queue"
-	"github.com/ipfs/go-ipfs-provider/simple"
+	provider "github.com/fgeth/fg-ipfs-provider"
+	"github.com/fgeth/fg-ipfs-provider/queue"
+	"github.com/fgeth/fg-ipfs-provider/simple"
 	logging "github.com/ipfs/go-log"
 	"github.com/ipfs/go-verifcid"
 	"github.com/multiformats/go-multihash"

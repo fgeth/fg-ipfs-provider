@@ -12,9 +12,9 @@ import (
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
 	bsfetcher "github.com/ipfs/go-fetcher/impl/blockservice"
-	blockstore "github.com/ipfs/go-ipfs-blockstore"
-	offline "github.com/ipfs/go-ipfs-exchange-offline"
-	mock "github.com/ipfs/go-ipfs-routing/mock"
+	blockstore "github.com/fgeth/fg-ipfs-blockstore"
+	offline "github.com/fgeth/fg-ipfs-exchange-offline"
+	mock "github.com/fgeth/fg-ipfs-routing/mock"
 	"github.com/ipld/go-ipld-prime"
 	"github.com/ipld/go-ipld-prime/codec/dagcbor"
 	"github.com/ipld/go-ipld-prime/fluent/qp"
@@ -24,7 +24,7 @@ import (
 	testutil "github.com/libp2p/go-libp2p-testing/net"
 	mh "github.com/multiformats/go-multihash"
 
-	. "github.com/ipfs/go-ipfs-provider/simple"
+	. "github.com/fgeth/fg-ipfs-provider/simple"
 )
 
 func setupRouting(t *testing.T) (clA, clB mock.Client, idA, idB peer.ID) {

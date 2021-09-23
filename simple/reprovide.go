@@ -11,7 +11,7 @@ import (
 	"github.com/ipfs/go-cidutil"
 	"github.com/ipfs/go-fetcher"
 	fetcherhelpers "github.com/ipfs/go-fetcher/helpers"
-	blocks "github.com/ipfs/go-ipfs-blockstore"
+	blocks "github.com/fgeth/fg-ipfs-blockstore"
 	logging "github.com/ipfs/go-log"
 	"github.com/ipfs/go-verifcid"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"

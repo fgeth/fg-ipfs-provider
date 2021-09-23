@@ -8,7 +8,7 @@ import (
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/sync"
-	"github.com/ipfs/go-ipfs-blocksutil"
+	"github.com/fgeth/fg-ipfs-blocksutil"
 )
 
 var blockGenerator = blocksutil.NewBlockGenerator()

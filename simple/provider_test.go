@@ -9,12 +9,12 @@ import (
 	cid "github.com/ipfs/go-cid"
 	datastore "github.com/ipfs/go-datastore"
 	sync "github.com/ipfs/go-datastore/sync"
-	blocksutil "github.com/ipfs/go-ipfs-blocksutil"
+	blocksutil "github.com/fgeth/fg-ipfs-blocksutil"
 	peer "github.com/libp2p/go-libp2p-core/peer"
 
-	q "github.com/ipfs/go-ipfs-provider/queue"
+	q "github.com/fgeth/fg-ipfs-provider/queue"
 
-	. "github.com/ipfs/go-ipfs-provider/simple"
+	. "github.com/fgeth/fg-ipfs-provider/simple"
 )
 
 var blockGenerator = blocksutil.NewBlockGenerator()

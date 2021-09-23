@@ -15,7 +15,7 @@ The provider system is responsible for announcing and reannouncing to the ipfs n
 Via `go get`:
 
 ```sh
-$ go get github.com/ipfs/go-ipfs-provider
+$ go get github.com/fgeth/fg-ipfs-provider
 ```
 
 > Requires Go 1.12
@@ -29,9 +29,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ipfs/go-ipfs-provider"
-	"github.com/ipfs/go-ipfs-provider/queue"
-	"github.com/ipfs/go-ipfs-provider/simple"
+	"github.com/fgeth/fg-ipfs-provider"
+	"github.com/fgeth/fg-ipfs-provider/queue"
+	"github.com/fgeth/fg-ipfs-provider/simple"
 )
 
 rsys := (your routing system here)
